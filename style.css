@@ -1,0 +1,29 @@
+/* style.css
+  '어느 가을날의 독서 캠프' 안내장을 위한 스타일시트입니다.
+  이 파일은 폰트, 색상, 배경 등 전반적인 디자인을 정의합니다.
+  Tailwind CSS 클래스와 함께 사용됩니다.
+*/
+
+/* Apply custom fonts */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+h1, h2, h3 {
+    font-family: 'Nanum Myeongjo', serif; /* A more classic font for titles */
+}
+
+/* Autumn-themed colors */
+.autumn-brown { color: #8C5A44; }
+.autumn-orange { color: #D97706; }
+.autumn-red { color: #B91C1C; }
+.autumn-gold { color: #FBBF24; }
+.bg-autumn-brown { background-color: #8C5A44; }
+.bg-autumn-orange { background-color: #D97706; }
+
+/* Background gradient */
+body {
+    background: linear-gradient(135deg, #f3e9e0 0%, #e6d4c0 100%);
+    position: relative;
+}
