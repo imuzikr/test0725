@@ -1,7 +1,6 @@
-/* style.css
-  '어느 가을날의 독서 캠프' 안내장을 위한 스타일시트입니다.
+/* style.css (Dark Theme)
+  '어느 가을날의 독서 캠프' 안내장을 위한 다크 모드 스타일시트입니다.
   이 파일은 폰트, 색상, 배경 등 전반적인 디자인을 정의합니다.
-  Tailwind CSS 클래스와 함께 사용됩니다.
 */
 
 /* Apply custom fonts */
@@ -14,16 +13,19 @@ h1, h2, h3 {
     font-family: 'Nanum Myeongjo', serif; /* A more classic font for titles */
 }
 
-/* Autumn-themed colors */
-.autumn-brown { color: #8C5A44; }
-.autumn-orange { color: #D97706; }
-.autumn-red { color: #B91C1C; }
-.autumn-gold { color: #FBBF24; }
-.bg-autumn-brown { background-color: #8C5A44; }
-.bg-autumn-orange { background-color: #D97706; }
+/* Autumn-themed colors (adjusted for dark mode) */
+.autumn-brown { color: #A67B5B; }
+.autumn-orange { color: #F9A825; }
+.autumn-red { color: #EF5350; }
+.autumn-gold { color: #FFEE58; }
+.bg-autumn-brown { background-color: #A67B5B; }
+.bg-autumn-orange { background-color: #F9A825; }
 
-/* Background gradient */
+/* Dark theme background */
 body {
-    background: linear-gradient(135deg, #f3e9e0 0%, #e6d4c0 100%);
+    background-color: #111827; /* Dark Gray */
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 25%),
+        radial-gradient(circle at 85% 30%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 20%);
     position: relative;
 }
